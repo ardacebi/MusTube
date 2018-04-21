@@ -1,5 +1,6 @@
 # TelTube
 [![Build Status](https://travis-ci.org/TurboProgramming/TelTube.svg?branch=master)](https://travis-ci.org/TurboProgramming/TelTube)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]
 [![GitHub issues](https://img.shields.io/github/issues/TurboProgramming/TelTube.svg)](https://github.com/TurboProgramming/TelTube/issues)
 [![GitHub forks](https://img.shields.io/github/forks/TurboProgramming/TelTube.svg)](https://github.com/TurboProgramming/TelTube/network)
 [![GitHub stars](https://img.shields.io/github/stars/TurboProgramming/TelTube.svg)](https://github.com/TurboProgramming/TelTube/stargazers)
