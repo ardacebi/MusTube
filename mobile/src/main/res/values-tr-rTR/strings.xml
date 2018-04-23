@@ -9,4 +9,5 @@
     <string name="title_settings">Ayarlar</string>
     <string name="title_activity_main2">TelTube</string>
     <string name="action_settings">Ayarlar</string>
+    <string name="action_darkmode">Koyu Mod</string>
 </resources>
