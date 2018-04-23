@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">TelTube</string>
-    <string name="title_home">Home</string>
+    <string name="app_name" translatable="false">TelTube</string>
+    <string name="title_home" translatable="false">Home</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_explore">Explore</string>
     <string name="title_library">Library</string>
@@ -100,4 +100,9 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_about">About</string>
+    <string name="drawer_about">About</string>
+    <string name="nav_application">Application</string>
+    <string name="nav_signin_label">Sign in to access personal favorites, connect with friends and more.</string>
+    <string name="search">Search</string>
 </resources>
