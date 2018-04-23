@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "360804966134",
+    "firebase_url": "https://teltube-ffaef.firebaseio.com",
+    "project_id": "teltube-ffaef",
+    "storage_bucket": "teltube-ffaef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360804966134:android:e56906004dae7f6a",
+        "android_client_info": {
+          "package_name": "com.ardacebi.teltube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360804966134-9rmf6ea8b9gggecltn1se8u2d4drhgbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ardacebi.teltube",
+            "certificate_hash": "d783db023f7be8576e4bbc775eaf1f561b96d065"
+          }
+        },
+        {
+          "client_id": "360804966134-rk9jmp1qsl4ooordd57nhra5p72iio2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYSYNN6fdwodN7CiT2AvjMq-YB0NqChtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360804966134-rk9jmp1qsl4ooordd57nhra5p72iio2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
