@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TelTube</string>
+    <string name="title_home">Ana Ekran</string>
+    <string name="title_notifications">Bildirimler</string>
+    <string name="title_explore">Keşfet</string>
+    <string name="title_library">Kütüphane</string>
+    <string name="title_profile">Profil</string>
+    <string name="title_settings">Ayarlar</string>
+    <string name="title_activity_main2">TelTube</string>
+    <string name="action_settings">Ayarlar</string>
+</resources>

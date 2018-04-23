@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TelTube</string>
+    <string name="title_activity_main2">TelTube</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_settings">Impostazioni</string>
+    <string name="title_library">Libreria</string>
+    <string name="title_explore">Esplora</string>
+    <string name="title_notifications">Notifiche</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profilo</string>
+</resources>
