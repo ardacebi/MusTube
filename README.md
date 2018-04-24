@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/TurboProgramming/MusTube/master/LICENSE)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
-TelTube is a TV streaming app that let's you stream TV channels for free.
+MusTube is a Material music player.
 
 ## Overview
 ### Features
