@@ -1,5 +1,6 @@
 package com.ardacebi.teltube;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TabHost;
 import android.widget.TextView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -49,10 +51,18 @@ import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.mikepenz.aboutlibraries.Libs;
+import com.mikepenz.aboutlibraries.LibsBuilder;
+
+import de.cketti.library.changelog.ChangeLog;
+
 
 public class Main2Activity extends AppCompatActivity
 
+
+
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
 
     @Override
@@ -73,14 +83,9 @@ public class Main2Activity extends AppCompatActivity
                             case R.id.navigation_home:
                                 selectedFragment = ItemOneFragment.newInstance();
                                 break;
-                            case R.id.navigation_explore:
-                                selectedFragment = ItemTwoFragment.newInstance();
-                                break;
+
                             case R.id.navigation_library:
                                 selectedFragment = ItemThreeFragment.newInstance();
-                                break;
-                            case R.id.navigation_notifications:
-                                selectedFragment = ItemTwoFragment.newInstance();
                                 break;
                             case R.id.navigation_profile:
                                 selectedFragment = ItemThreeFragment.newInstance();
@@ -92,6 +97,13 @@ public class Main2Activity extends AppCompatActivity
                         return true;
                     }
                 });
+
+
+
+        ChangeLog cl = new ChangeLog(this);
+        if (cl.isFirstRun()) {
+            cl.getLogDialog().show();
+        }
 
         //Manually displaying the first fragment - one time only
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
@@ -155,15 +167,15 @@ public class Main2Activity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_about) {
 
-            Intent intent = new Intent(getApplicationContext(), aboutActivity.class);
-            startActivity(intent);
-
-        } else if (id == R.id.nav_settings) {
-
-            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
-            startActivity(intent);
+            new LibsBuilder()
+                    //provide a style (optional) (LIGHT, DARK, LIGHT_DARK_TOOLBAR)
+                    .withActivityStyle(Libs.ActivityStyle.LIGHT_DARK_TOOLBAR)
+                    //start the activity
+                    .start(this);
 
         }
+
+
 
 
 

@@ -25,10 +25,6 @@
     <item android:title="@string/nav_application">
         <menu>
             <item
-                android:id="@+id/nav_settings"
-                android:icon="@drawable/ic_settings_black_24dp"
-                android:title="@string/action_settings" />
-            <item
                 android:id="@+id/nav_about"
                 android:icon="@drawable/ic_info_black_24dp"
                 android:title="@string/drawer_about" />
