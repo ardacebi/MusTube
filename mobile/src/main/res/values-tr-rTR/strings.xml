@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TelTube</string>
+    <string name="app_name">MusTube</string>
     <string name="title_home">Ana Ekran</string>
     <string name="title_notifications">Bildirimler</string>
     <string name="title_explore">Keşfet</string>
@@ -9,4 +9,5 @@
     <string name="title_settings">Ayarlar</string>
     <string name="title_activity_main2">TelTube</string>
     <string name="action_settings">Ayarlar</string>
+    <string name="action_darkmode">Koyu Mod</string>
 </resources>

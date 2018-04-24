@@ -1,0 +1,19 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="home"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:shortcutShortLabel="@string/title_home"
+        android:shortcutLongLabel="@string/title_home"
+        android:shortcutDisabledMessage="@string/title_home">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.ardacebi.teltube"
+            android:targetClass="com.ardacei.teltube.Main2Activity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
