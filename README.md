@@ -9,6 +9,8 @@
 
 MusTube is a Material music player.
 
+![](https://raw.githubusercontent.com/TurboProgramming/MusTube/development/assets/mustube.png)
+
 ## Overview
 ### Features
 - Listen to your favorite music.
